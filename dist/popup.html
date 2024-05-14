@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="tabs">
+      <button class="tablinks active" id="timeFillerTab">Time Filler</button>
+      <button class="tablinks" id="analyzerTab">Analyzer</button>
+    </div>
+    <div id="timeFiller" class="tab-content">
+      <div id="timeSplits"></div>
+      <button type="button" id="addTimeSplit">Add Time Split</button>
+      <div id="workHours">
+        <div class="header">
+          <h3>Work Hours</h3>
+          <h4>Home</h4>
+          <h4>Office</h4>
+          <h4>PTO</h4>
+        </div>
+        <div class="day">
+          <h3>Sunday</h3>
+          <input
+            type="number"
+            id="homeHoursSunday"
+            placeholder="Hours from Home"
+          />
+          <input
+            type="number"
+            id="officeHoursSunday"
+            placeholder="Hours in Office"
+          />
+          <input
+            type="number"
+            class="pto"
+            id="ptoHoursSunday"
+            placeholder="PTO Hours"
+          />
+        </div>
+        <div class="day">
+          <h3>Monday</h3>
+          <input
+            type="number"
+            id="homeHoursMonday"
+            placeholder="Hours from Home"
+          />
+          <input
+            type="number"
+            id="officeHoursMonday"
+            placeholder="Hours in Office"
+          />
+          <input
+            type="number"
+            class="pto"
+            id="ptoHoursMonday"
+            placeholder="PTO Hours"
+          />
+        </div>
+        <div class="day">
+          <h3>Tuesday</h3>
+          <input
+            type="number"
+            id="homeHoursTuesday"
+            placeholder="Hours from Home"
+          />
+          <input
+            type="number"
+            id="officeHoursTuesday"
+            placeholder="Hours in Office"
+          />
+          <input
+            type="number"
+            class="pto"
+            id="ptoHoursTuesday"
+            placeholder="PTO Hours"
+          />
+        </div>
+        <div class="day">
+          <h3>Wednesday</h3>
+          <input
+            type="number"
+            id="homeHoursWednesday"
+            placeholder="Hours from Home"
+          />
+          <input
+            type="number"
+            id="officeHoursWednesday"
+            placeholder="Hours in Office"
+          />
+          <input
+            type="number"
+            class="pto"
+            id="ptoHoursWednesday"
+            placeholder="PTO Hours"
+          />
+        </div>
+        <div class="day">
+          <h3>Thursday</h3>
+          <input
+            type="number"
+            id="homeHoursThursday"
+            placeholder="Hours from Home"
+          />
+          <input
+            type="number"
+            id="officeHoursThursday"
+            placeholder="Hours in Office"
+          />
+          <input
+            type="number"
+            class="pto"
+            id="ptoHoursThursday"
+            placeholder="PTO Hours"
+          />
+        </div>
+        <div class="day">
+          <h3>Friday</h3>
+          <input
+            type="number"
+            id="homeHoursFriday"
+            placeholder="Hours from Home"
+          />
+          <input
+            type="number"
+            id="officeHoursFriday"
+            placeholder="Hours in Office"
+          />
+          <input
+            type="number"
+            class="pto"
+            id="ptoHoursFriday"
+            placeholder="PTO Hours"
+          />
+        </div>
+        <div class="day">
+          <h3>Saturday</h3>
+          <input
+            type="number"
+            id="homeHoursSaturday"
+            placeholder="Hours from Home"
+          />
+          <input
+            type="number"
+            id="officeHoursSaturday"
+            placeholder="Hours in Office"
+          />
+          <input
+            type="number"
+            class="pto"
+            id="ptoHoursSaturday"
+            placeholder="PTO Hours"
+          />
+        </div>
+      </div>
+      <button type="button" id="fill">Fill</button>
+      <button type="button" id="clear">Clear</button>
+      <button type="button" id="save">Save default</button>
+      <button type="button" id="load">Load default</button>
+    </div>
+    <div id="analyzer" class="tab-content">
+      <div id="analyzerContent">
+        <div id="analyzerHeader">
+          <h3>Analyzer</h3>
+          <button type="button" id="analyze">Analyze</button>
+        </div>
+        <div id="analyzerResults"></div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

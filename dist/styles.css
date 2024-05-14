@@ -1,0 +1,71 @@
+#analyzer {
+    display: none;
+}
+
+.day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.day h3 {
+    width: 100px;
+}
+
+.day input {
+    margin: 0 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h4 {
+    width: 100px;
+}
+
+.input-row {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.input-row input {
+    width: 100px;
+}
+
+.tab-content {
+    min-width: 619px;
+}
+
+.tablinks {
+    /* your existing styles */
+}
+
+.tablinks.active {
+    /* styles for the active button */
+    background-color: #ddd;
+    color: black;
+}
+
+.tabs {
+    margin-bottom: 0.5rem;
+}
+
+#timeSplits {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.analysis-table {
+    width: 100%;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.analysis-table th {
+    text-align: left;
+}

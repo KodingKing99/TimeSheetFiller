@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "TimeSheet Filler",
+    "version": "1.0",
+    "description": "A chrome extension that helps fill your time sheet by splitting time into project codes and automatically filling in holiday hours.",
+    "content_scripts": [
+      {
+        "matches": ["https://hr-app.verisk.com/*"],
+        "js": ["message_bus.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "working-hours128.png"
+    },
+    "permissions": ["tabs", "activeTab", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "working-hours16.png",
+      "32": "working-hours32.png",
+      "128": "working-hours128.png"
+    }
+  }
+  

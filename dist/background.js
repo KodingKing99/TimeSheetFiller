@@ -1,0 +1,1 @@
+console.log("in the background.js file...."),chrome.tabs.onUpdated.addListener((function(o,e,n){e.url&&console.log("URL CHANGED TO: "+e.url)}));
