@@ -17,3 +17,15 @@ The goal of this project was to make filling in our time sheets easier.
 
 If you have any suggestions, please reach out on Teams! (Nick Sorenson)
 
+## Contributing 
+
+If you'd like to help contribute/make changes, this is the steps to build the extension.
+
+1. cd into the root of the repo, TimeSheetFiller
+2. Any changes made should be done in the ```src``` folder
+3. Run ```npm i; npm run build```. This will install dependencies and compile the javascript via webpack and update the dist folder
+5. Refresh the extension ![Screenshot 2024-05-14 at 11 16 04 AM](https://github.com/KodingKing99/TimeSheetFiller/assets/89875464/bcbb66af-f2b4-44cc-b565-13c2720373e3)
+6. Refresh the people soft page
+7. You should see your changes in the popup
+
+
